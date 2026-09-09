@@ -1,24 +1,10 @@
-// // Contact form
 
-// const contactForm = document.querySelector(".contact-form");
-
-// contactForm.addEventListener("submit", function(event) {
-
-//     event.preventDefault();
-
-//     alert("Thank you for your message! I will get back to you soon.");
-
-//     contactForm.reset();
-
-// });
-
-// ================= HAMBURGER MENU =================
 
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("navLinks");
 
 hamburger.addEventListener("click", function () {
-
+a
     navLinks.classList.toggle("active");
 
 });
@@ -52,4 +38,5 @@ contactForm.addEventListener("submit", function(event) {
     contactForm.reset();
 
 });
+
 
